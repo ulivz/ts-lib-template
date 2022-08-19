@@ -1,0 +1,62 @@
+{
+  "name": "@nomadland/template",
+  "description": "Default Template",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "keywords": [
+    "workflow",
+    "speedy",
+    "speedy-js",
+    "publish",
+    "release",
+    "npm publish"
+  ],
+  "scripts": {
+    "bootstrap": "pnpm i --prefer-offline",
+    "dev": "run-p dev:cjs dev:esm",
+    "build": "run-p dev:cjs dev:esm",
+    "dev:cjs": "npm run build:cjs -- --watch",
+    "dev:esm": "npm run build:esm -- --watch",
+    "build:cjs": "tsc -p tsconfig.json --module commonjs --outDir lib",
+    "build:esm": "tsc -p tsconfig.json --module ES2015 --outDir esm",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint -c .eslintrc.js src --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest",
+    "cov": "jest --coverage",
+    "release": "publish"
+  },
+  "dependencies": {
+    "tslib": "2.4.0"
+  },
+  "devDependencies": {
+    "@nomadland/publish": "0.1.1",
+    "@speedy-js/eslint-config": "0.1.4",
+    "@types/jest": "28.1.7",
+    "@types/node": "18.7.6",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "jest": "28.1.3",
+    "jest-cli": "28.1.3",
+    "jest-serializer-path": "0.1.15",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.7.1",
+    "ts-jest": "28.0.8",
+    "typescript": "4.7.4"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "!lib/*.tsbuildinfo",
+    "!lib/*.map",
+    "types",
+    "*.d.ts"
+  ]
+}
