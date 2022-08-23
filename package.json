@@ -20,7 +20,7 @@
   "scripts": {
     "bootstrap": "pnpm i --prefer-offline",
     "dev": "run-p dev:cjs dev:esm",
-    "build": "run-p dev:cjs dev:esm",
+    "build": "run-p build:cjs build:esm",
     "dev:cjs": "npm run build:cjs -- --watch",
     "dev:esm": "npm run build:esm -- --watch",
     "build:cjs": "tsc -p tsconfig.json --module commonjs --outDir lib",
