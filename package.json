@@ -53,6 +53,9 @@
   },
   "files": [
     "bin",
+    "esm",
+    "!esm/*.tsbuildinfo",
+    "!esm/*.map",
     "lib",
     "!lib/*.tsbuildinfo",
     "!lib/*.map",
