@@ -3,8 +3,8 @@
   "description": "Default Template",
   "version": "0.0.1",
   "main": "lib/index.js",
-  "module": "es/index.js",
-  "typings": "es/index.d.ts",
+  "module": "esm/index.js",
+  "typings": "esm/index.d.ts",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
