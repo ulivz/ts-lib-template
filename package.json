@@ -36,7 +36,7 @@
     "tslib": "2.4.0"
   },
   "devDependencies": {
-    "@nomadland/publish": "0.1.1",
+    "@openpia/publish": "0.2.0",
     "@speedy-js/eslint-config": "0.1.4",
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",

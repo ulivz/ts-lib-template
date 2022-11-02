@@ -34,7 +34,7 @@ npm run release     # release this package
 - Unit test with [jest](https://facebook.github.io/jest/).
 - Format code with [eslint](https://eslint.org/docs).
 - Fix and format code on each commit.
-- Leverage [@openpia/publish] for release flow.
+- Leverage [@openpia/publish](https://github.com/openpia/publish) for release flow.
 
 ## License
 
