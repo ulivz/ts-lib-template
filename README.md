@@ -1,7 +1,7 @@
 <h1 align="center">@insx/template</h1>
 
 <p align="center">
-    Scaffolding out a node module.
+    A hassle-free TS library template.
 </p>
 
 <p align="center">
