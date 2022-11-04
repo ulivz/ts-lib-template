@@ -1,5 +1,5 @@
 {
-  "name": "@openpia/template",
+  "name": "@insx/template",
   "description": "Default Template",
   "version": "0.0.1",
   "main": "lib/index.js",
@@ -36,7 +36,7 @@
     "tslib": "2.4.0"
   },
   "devDependencies": {
-    "@openpia/publish": "0.2.0",
+    "@insx/publish": "0.2.0",
     "@speedy-js/eslint-config": "0.1.4",
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",
