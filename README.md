@@ -1,19 +1,19 @@
-<h1 align="center">@insx/template</h1>
+<h1 align="center">ts-lib-template</h1>
 
 <p align="center">
     A hassle-free TS library template.
 </p>
 
 <p align="center">
-    <a href="https://npmjs.com/package/@insx/template"><img src="https://img.shields.io/npm/v/@insx/template.svg?style=flat" alt="NPM version"></a> 
-    <a href="https://npmjs.com/package/@insx/template"><img src="https://img.shields.io/npm/dm/@insx/template.svg?style=flat" alt="NPM downloads"></a> 
-    <a href="https://circleci.com/gh/saojs/@insx/template"><img src="https://img.shields.io/circleci/project/saojs/@insx/template/master.svg?style=flat" alt="Build Status"></a> 
+    <a href="https://npmjs.com/package/ts-lib-template"><img src="https://img.shields.io/npm/v/ts-lib-template.svg?style=flat" alt="NPM version"></a> 
+    <a href="https://npmjs.com/package/ts-lib-template"><img src="https://img.shields.io/npm/dm/ts-lib-template.svg?style=flat" alt="NPM downloads"></a> 
+    <a href="https://circleci.com/gh/saojs/ts-lib-template"><img src="https://img.shields.io/circleci/project/saojs/ts-lib-template/master.svg?style=flat" alt="Build Status"></a> 
 </p>
 
 ## Quick Start
 
 1. Click "Use this template" at this repository.
-2. Rename all `@insx/template` to your package name.
+2. Rename all `ts-lib-template` to your package name.
 3. Commands:
 
 ```bash

@@ -30,13 +30,13 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "jest",
     "cov": "jest --coverage",
-    "release": "publish"
+    "release": "quick-publish"
   },
   "dependencies": {
     "tslib": "2.4.0"
   },
   "devDependencies": {
-    "@insx/publish": "0.2.0",
+    "quick-publish": "0.6.0",
     "@speedy-js/eslint-config": "0.1.4",
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",
