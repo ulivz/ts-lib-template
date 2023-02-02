@@ -34,8 +34,8 @@ npm run release     # release this package
 - Unit test with [jest](https://facebook.github.io/jest/).
 - Format code with [eslint](https://eslint.org/docs).
 - Fix and format code on each commit.
-- Leverage [quick-publish](https://github.com/insx/quick-publish) for release flow.
+- Leverage [quick-publish](https://github.com/ulivz/quick-publish) for release flow.
 
 ## License
 
-MIT &copy; [INS-X](https://github.com/ins-x)
+MIT &copy; [ULIVZ](https://github.com/ulivz)
