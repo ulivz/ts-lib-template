@@ -1,5 +1,5 @@
 {
-  "name": "@insx/template",
+  "name": "ts-lib-template",
   "description": "Default Template",
   "version": "0.0.1",
   "main": "lib/index.js",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "quick-publish": "0.6.0",
-    "eslint-config-typescript-library": "0.2.2",
+    "eslint-config-typescript-library": "0.2.4",
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",
     "eslint": "7",
