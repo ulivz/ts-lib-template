@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "bootstrap": "pnpm i --prefer-offline",
+    "clean": "rm -rf cjs esm",
     "dev": "run-p dev:cjs dev:esm",
     "build": "run-p build:cjs build:esm",
     "dev:cjs": "npm run build:cjs -- --watch",

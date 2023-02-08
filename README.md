@@ -18,6 +18,7 @@
 
 ```bash
 npm run bootstrap   # install dependencies
+npm run clean       # clean dependencies
 npm run dev         # development both cjs and esm output
 npm run build       # build both cjs and esm
 npm run lint        # lint code
