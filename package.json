@@ -10,12 +10,8 @@
     "access": "public"
   },
   "keywords": [
-    "workflow",
-    "speedy",
-    "speedy-js",
-    "publish",
-    "release",
-    "npm publish"
+    "typescript",
+    "lib"
   ],
   "scripts": {
     "bootstrap": "pnpm i --prefer-offline",
