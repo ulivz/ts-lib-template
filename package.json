@@ -36,8 +36,6 @@
   "devDependencies": {
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",
-    "eslint": "7",
-    "eslint-config-typescript-library": "0.2.4",
     "@vitest/coverage-v8": "3.1.2",
     "vitest": "3.1.2",
     "npm-run-all": "4.1.5",
