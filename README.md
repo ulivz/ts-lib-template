@@ -1,7 +1,7 @@
 <h1 align="center">ts-lib-template</h1>
 
 <p align="center">
-    A hassle-free TS library template.
+    ⚡ A hassle-free TS library template, powered by [rslib](https://lib.rsbuild.dev/) 💨
 </p>
 
 <p align="center">
