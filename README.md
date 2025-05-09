@@ -1,7 +1,7 @@
 <h1 align="center">ts-lib-template</h1>
 
 <p align="center">
-    ⚡ A hassle-free TS library template, powered by [rslib](https://lib.rsbuild.dev/) 💨
+    ⚡ A hassle-free TS library template, powered by <a href="https://lib.rsbuild.dev/">rslib</a> 💨
 </p>
 
 <p align="center">
@@ -31,10 +31,8 @@ npm run release     # release this package
 ## Features
 
 - TypeScript by default.
-- Output both `cjs` and `esm`.
-- Unit test with [jest](https://facebook.github.io/jest/).
-- Format code with [eslint](https://eslint.org/docs).
-- Fix and format code on each commit.
+- Faster build both `cjs` and `esm`, powered by <a href="https://lib.rsbuild.dev/">rslib</a> 💨
+- Unit test with [vitest](https://vitest.dev/).
 - Leverage [quick-publish](https://github.com/ulivz/quick-publish) for release flow.
 
 ## License
