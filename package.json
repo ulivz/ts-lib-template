@@ -35,14 +35,6 @@
     "typescript": "5.8.3"
   },
   "files": [
-    "bin",
-    "esm",
-    "!esm/*.tsbuildinfo",
-    "!esm/*.map",
-    "lib",
-    "!lib/*.tsbuildinfo",
-    "!lib/*.map",
-    "types",
-    "*.d.ts"
+    "dist"
   ]
 }
